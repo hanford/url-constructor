@@ -1,0 +1,30 @@
+{
+  "name": "url-constructor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hanford/url-constructor.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hanford/url-constructor/issues"
+  },
+  "keywords": [
+    "url",
+    "constructor",
+    "dynamic url",
+    "map url parameters",
+    "url parameter"
+  ],
+  "author": "Jack Hanford <jackhanford@gmail.com> (http://www.jackhanford.com/)",
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine": "~2.4.1",
+    "jasmine-core": "~2.4.1"
+  }
+}
