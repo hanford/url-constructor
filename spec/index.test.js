@@ -29,4 +29,10 @@ describe('should extract url params', function () {
     var res = urlConstruct('/:order?id=:id&cache=:cache', {id: '20388', cache: false, order: 'jack'})
     expect(res).toBe('/jack?id=20388&cache=false')
   })
+
+  it('should work with only dynamic values', function () {
+    var res = urlConstruct('/groups/:slug?product_id=:product_id', {product_id: 1300, slug: 'flower'})
+
+    expect(res).toBe('/groups/flower?product_id=1300')
+  })
 })
